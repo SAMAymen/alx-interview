@@ -1,0 +1,2 @@
+# 0x09. Island Perimeter
+Create a function `def island_perimeter(grid):` that calculates the perimeter of an island in a grid. The grid is a list of lists of integers where 0 represents water and 1 represents land. Each cell is a 1x1 square, connected horizontally or vertically. The grid is rectangular with a maximum size of 100x100, surrounded by water, containing only one island without internal water bodies.

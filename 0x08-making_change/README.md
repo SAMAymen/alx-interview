@@ -1,0 +1,2 @@
+# 0x08. Making Change
+This task involves determining the minimum number of coins required to achieve a given total from a pile of coins with different values. The function prototype is `def makeChange(coins, total)`, which returns the fewest number of coins needed. If the total is 0 or less, the function returns 0, and if the total cannot be met with the available coins, it returns -1. The coins are represented as a list of positive integer values, and it is assumed that there is an infinite supply of each coin denomination. The solution's runtime will be evaluated.

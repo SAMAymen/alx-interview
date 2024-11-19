@@ -1,0 +1,2 @@
+# 0x03-log_parsing
+Write a script that reads stdin line by line and computes metrics, specifically the total file size and the number of lines by status code (200, 301, 400, 401, 403, 404, 405, 500). The script should print statistics after every 10 lines or upon receiving a keyboard interruption (CTRL + C). The input format is `<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>`, and lines not matching this format should be skipped. An example is provided using a generator script that simulates log entries and demonstrates the expected output.
